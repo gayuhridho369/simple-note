@@ -1,0 +1,57 @@
+.noteList {
+  cursor: pointer;
+  position: relative;
+  height: 225px;
+  padding: 16px;
+  border-radius: 12px;
+  border-top-width: 5px;
+  border-top-style: solid;
+  box-shadow: var(--box-shadow);
+  background-color: var(--background-card);
+}
+
+.title {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.body {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.datetime {
+  margin: 0;
+  font-size: 12px;
+}
+
+.delete {
+  color: var(--color-icon);
+  font-size: 12px;
+}
+
+.delete:hover {
+  color: var(--text-primary);
+}
